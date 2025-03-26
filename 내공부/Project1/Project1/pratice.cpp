@@ -1,29 +1,55 @@
-﻿/*
-먼저 입력될 정수의 n<=100 개수 을 입력받고, 이어서 개의 정수를 받아 평균과 표준편차를 계산하여
-출력하는 프로그램을 작성하라. 표준편차는 다음과 같이 정의된다. 루트(square root)를 계산하기 위해
-서 <cmath>를 include하고 sqrt함수를 사용하라. (분산 = (변량-평균)^2의 평균, 표준편차는 sqrt(분산)
+﻿#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
 
-100의 배열을 받는다
-n개를 받는다
-반복문
-배열 [i]를 어떠한 변수에 많이 더한다
-그 변수에 n을 나누면 평균이 나온다
-그리고 (배열[i] - 평균)^2을 구한다
-그것을 n으로 나누자
-표준편차를 구하자
-
-*/
-
-#include <iostream>
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-
-using namespace std;;
-
+using namespace std;
 
 int main() {
-	
+    ifstream inputFile("table.txt");
+    ofstream outputFile("output.txt");
+
+    if (!inputFile || !outputFile) {
+        cout << "파일을 열 수 없습니다." << endl;
+        return 1;
+    }
+
+    int rows, cols;
+    inputFile >> rows >> cols; // 첫 줄에서 행, 열 개수 읽기
+    inputFile.ignore(); // 개행 문자 제거
+
+    string line;
+    while (getline(inputFile, line)) {
+        vector<string> tokens;
+        stringstream ss(line);
+        string token;
+
+        // '&'을 기준으로 데이터 분리
+        while (getline(ss, token, '&')) {
+            // 불필요한 공백 제거
+            stringstream tokenStream(token);
+            string word, cleaned;
+            while (tokenStream >> word) {
+                if (!cleaned.empty()) cleaned += " ";
+                cleaned += word;
+            }
+            // 빈 데이터가 아닐 경우 저장
+            if (!cleaned.empty()) {
+                tokens.push_back(cleaned);
+            }
+        }
+
+        // 정리된 데이터를 출력 파일에 저장
+        for (size_t i = 0; i < tokens.size(); i++) {
+            if (i > 0) outputFile << " "; // 칸 사이 띄어쓰기
+            outputFile << tokens[i];
+        }
+        outputFile << endl; // 한 줄 끝
+    }
+
+    inputFile.close();
+    outputFile.close();
+
+    cout << "출력이 완료되었습니다! (output.txt 확인)" << endl;
+    return 0;
 }
-
-
