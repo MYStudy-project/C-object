@@ -8,7 +8,7 @@ string lines[MAX];
 int wordCounts[MAX];
 int lineCount = 0;
 
-// 불필요한 공백 제거 및 단어 개수 계산
+
 int countWordsAndClean(string& line) {
     string cleaned;
     int count = 0;
@@ -34,7 +34,6 @@ int countWordsAndClean(string& line) {
     return count;
 }
 
-// 버블 정렬: 단어 개수 내림차순
 void sortLines() {
     for (int i = lineCount - 1; i > 0; i--) {
         for (int j = 0; j < i; j++) {

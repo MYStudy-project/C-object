@@ -18,8 +18,8 @@ bool isDuplicate(const vector<string>& words, const string& word) {
 void toLowerCaseAndRemovePunctuation(string& word) {
     string cleanedWord = "";
     for (char ch : word) {
-        if (isalnum(ch)) {  // 알파벳이나 숫자만 허용
-            cleanedWord += tolower(ch);  // 소문자로 변환하여 추가
+        if (isalnum(ch)) {
+            cleanedWord += tolower(ch);  
         }
     }
     word = cleanedWord;
@@ -37,23 +37,23 @@ int main() {
     vector<string> words;
     string line;
 
-    while (getline(file, line)) {  // 파일에서 한 줄씩 읽기
+    while (getline(file, line)) {
         string word = "";
         for (char ch : line) {
-            if (isalnum(ch)) {  // 알파벳이나 숫자라면
+            if (isalnum(ch)) { 
                 word += ch;
             }
             else {
                 if (!word.empty()) {
-                    toLowerCaseAndRemovePunctuation(word);  // 단어 처리
-                    if (!isDuplicate(words, word)) {  // 중복 확인
-                        words.push_back(word);  // 중복이 아니라면 단어 추가
+                    toLowerCaseAndRemovePunctuation(word); 
+                    if (!isDuplicate(words, word)) {
+                        words.push_back(word); 
                     }
-                    word = "";  // 다음 단어를 위해 초기화
+                    word = ""; 
                 }
             }
         }
-        if (!word.empty()) {  // 줄 끝에서 마지막 단어 처리
+        if (!word.empty()) { 
             toLowerCaseAndRemovePunctuation(word);
             if (!isDuplicate(words, word)) {
                 words.push_back(word);
@@ -63,11 +63,10 @@ int main() {
 
     file.close();
 
-    // 사전식으로 정렬
     for (size_t i = 0; i < words.size(); ++i) {
         for (size_t j = i + 1; j < words.size(); ++j) {
             if (words[i] > words[j]) {
-                swap(words[i], words[j]);  // 두 단어를 교환
+                swap(words[i], words[j]);  
             }
         }
     }

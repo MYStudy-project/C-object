@@ -6,18 +6,18 @@ using namespace std;
 
 string removeExtraSpaces(const string& str) {
     string result;
-    bool spaceFlag = false;
+    bool spacebool = false;
 
     for (char ch : str) {
         if (isspace(ch)) {
-            if (!result.empty() && !spaceFlag) {
+            if (!result.empty() && !spacebool) {
                 result += ' ';
             }
-            spaceFlag = true;
+            spacebool = true;
         }
         else {
             result += ch;
-            spaceFlag = false;
+            spacebool = false;
         }
     }
 

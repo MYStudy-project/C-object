@@ -9,12 +9,11 @@ int counts[MAX];
 int wordCount = 0;
 
 void addWord(string word) {
-    // 모든 문자를 소문자로 변환
+
     for (char& ch : word) {
-        ch = tolower(ch);
+        ch = tolower(ch); //소문자 변환
     }
 
-    // 기존 단어 찾기
     for (int i = 0; i < wordCount; i++) {
         if (words[i] == word) {
             counts[i]++;
@@ -22,14 +21,13 @@ void addWord(string word) {
         }
     }
 
-    // 새로운 단어 추가
     words[wordCount] = word;
     counts[wordCount] = 1;
     wordCount++;
 }
 
 void sortWords() {
-    // 버블 정렬 (빈도 내림차순, 빈도 동일 시 사전순)
+
     for (int i = wordCount - 1; i > 0; i--) {
         for (int j = 0; j < i; j++) {
             if (counts[j] < counts[j + 1] || (counts[j] == counts[j + 1] && words[j] > words[j + 1])) {
@@ -61,3 +59,4 @@ int main() {
 
     return 0;
 }
+    

@@ -8,7 +8,7 @@ int calculateExpression(const string& expr) {
 
     for (char ch : expr) {
         if (isdigit(ch)) {
-            num = num * 10 + (ch - '0');
+            num = num * 10 + (ch - '0'); //문자열을 숫자로 바꾸는 코드
         }
         else {
             if (op == '+') result += num;

@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{BE0D6803-7390-49D1-B25A-ABB5B7A5E0DB}|Project1\\Project1.vcxproj|C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE0D6803-7390-49D1-B25A-ABB5B7A5E0DB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\pratice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\\uB450\uBC88\uC9F8 \uACFC\uC81C\\prob8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "prob8.cpp",
+              "DocumentMoniker": "C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\\uB450\uBC88\uC9F8 \uACFC\uC81C\\prob8.cpp",
+              "RelativeDocumentMoniker": "..\\\uB450\uBC88\uC9F8 \uACFC\uC81C\\prob8.cpp",
+              "ToolTip": "C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\\uB450\uBC88\uC9F8 \uACFC\uC81C\\prob8.cpp",
+              "RelativeToolTip": "..\\\uB450\uBC88\uC9F8 \uACFC\uC81C\\prob8.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-28T08:18:37.213Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Project1\\pratice.cpp",
               "ToolTip": "C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp",
               "RelativeToolTip": "Project1\\pratice.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-15T10:14:06.135Z",
               "EditorCaption": ""
