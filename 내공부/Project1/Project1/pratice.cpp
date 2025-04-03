@@ -14,8 +14,8 @@ int main() {
 				min = i;
 			}
 		}
-		for (int j = a; j < min; j++) {
-			arr[min - j],arr[min - j - 1];
+		for (int j = min; j > a; j--) {
+			swap(arr[j], arr[j - 1]);
 		}
 		arr[a] = minarr;
 		
