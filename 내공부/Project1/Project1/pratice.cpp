@@ -1,23 +1,18 @@
 ﻿#include <iostream>
+#include <fstream>
 #include <string>
 using namespace std;
-const int MAX = 100;
+const int MAX = 1000;
+int main() {
+	ifstream infile("input34.txt");
+	string lines[MAX];
+	string line;
+	int n = 0;
+	while (getline(infile, line))
+		lines[n++] = line;
 
-
-int compare() {
-
-}
-
-int main()
-{
-	string words[MAX], str;
-	int n, k;
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		cin >> str;
-		words[i] = str;
-
-	}
-	
-
+	infile.close();
+	for (int i = 0; i < n; i++)
+		cout << lines[i] << endl;
+	return 0;
 }
