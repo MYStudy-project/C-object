@@ -1,34 +1,23 @@
 ﻿#include <iostream>
 #include <string>
-
+#include <vector>
 using namespace std;
 
+
+
 int main() {
-    int n;
-    cin >> n;
-
-    string commonPrefix;
-    cin >> commonPrefix;
-
-    for (int i = 1; i < n; ++i) {
-        string word;
-        cin >> word;
-
-        int minLength = min(commonPrefix.length(), word.length());
-        int j = 0;
-
-        while (j < minLength && commonPrefix[j] == word[j]) {
-            ++j;
-        }
-
-        commonPrefix = commonPrefix.substr(0, j);
-
-        if (commonPrefix.empty()) {
-            break;
-        }
-    }
-
-    cout << commonPrefix << endl;
-
-    return 0;
+	int n,a;
+	int count = 0;
+	cin >> n;
+	vector<int> arr;
+	for (int i = 0; i < n; i++) {
+		cin >> a;
+		count++;
+		for (int j = 0; j < count; j++) {
+			if (a != arr[j]) {
+				arr.push_back(a);
+			}
+		}
+	}
+	cout << arr.size();
 }
