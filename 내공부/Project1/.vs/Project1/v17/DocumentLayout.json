@@ -1,25 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\",
+  "WorkspaceRootPath": "C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE0D6803-7390-49D1-B25A-ABB5B7A5E0DB}|Project1\\Project1.vcxproj|C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BE0D6803-7390-49D1-B25A-ABB5B7A5E0DB}|Project1\\Project1.vcxproj|C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE0D6803-7390-49D1-B25A-ABB5B7A5E0DB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\pratice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC0BD\uC785\uC815\uB82C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC120\uD0DD\uC815\uB82C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,77 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "prob8.cpp",
-              "DocumentMoniker": "C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob8.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob8.cpp",
-              "ToolTip": "C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob8.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob8.cpp",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-13T16:02:26.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "prob6.cpp",
-              "DocumentMoniker": "C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob6.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob6.cpp",
-              "ToolTip": "C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob6.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob6.cpp",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwDQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-12T18:09:32.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "prob5.cpp",
-              "DocumentMoniker": "C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob5.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob5.cpp",
-              "ToolTip": "C:\\Users\\ksjun311\\Desktop\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob5.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\\uB2E4\uC6B4\uB85C\uB4DC\uD3F4\uB354\\prob5.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-12T17:31:56.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "\uC120\uD0DD\uC815\uB82C.cpp",
-              "DocumentMoniker": "C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC120\uD0DD\uC815\uB82C.cpp",
-              "RelativeDocumentMoniker": "..\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC120\uD0DD\uC815\uB82C.cpp",
-              "ToolTip": "C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC120\uD0DD\uC815\uB82C.cpp",
-              "RelativeToolTip": "..\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC120\uD0DD\uC815\uB82C.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-12T17:11:47.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "\uC0BD\uC785\uC815\uB82C.cpp",
-              "DocumentMoniker": "C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC0BD\uC785\uC815\uB82C.cpp",
-              "RelativeDocumentMoniker": "..\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC0BD\uC785\uC815\uB82C.cpp",
-              "ToolTip": "C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC0BD\uC785\uC815\uB82C.cpp",
-              "RelativeToolTip": "..\\\uCCAB\uBC88\uC9F8 \uACFC\uC81C\\\uC0BD\uC785\uC815\uB82C.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-12T17:10:19.171Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "pratice.cpp",
-              "DocumentMoniker": "C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp",
+              "DocumentMoniker": "C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp",
               "RelativeDocumentMoniker": "Project1\\pratice.cpp",
-              "ToolTip": "C:\\Users\\ksjun311\\Desktop\\\uACF5\uBD80\uBAA8\uC74C\uC9D1\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp",
-              "RelativeToolTip": "Project1\\pratice.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ToolTip": "C:\\Users\\sec\\Desktop\\c\u002B\u002B\uACF5\uBD80\\C-object\\\uB0B4\uACF5\uBD80\\Project1\\Project1\\pratice.cpp*",
+              "RelativeToolTip": "Project1\\pratice.cpp*",
+              "ViewState": "AgIAAD0AAABAF4oF/pIrwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-15T10:14:06.135Z",
               "EditorCaption": ""
