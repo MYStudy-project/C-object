@@ -3,31 +3,24 @@
 #include <vector>
 using namespace std;
 
-class A {
+class Box{
+	int capacity;
 public:
-	int data;
-	A() {
-		cout << "constructor1 of A" << endl;
+	Box() {}
+	Box(double capacity) {
+		this->capacity = capacity;
 	}
-	A(int a) : data(a) {
-		cout << "constructor2 of A" << endl;
-	}
-};
-class B {
-public:
-	vector<A> vec;
-	A z;
-	B() {
-		cout << "constructor1 of B" << endl;
-	}
-	B(vector<A> v) : vec(v) {
-		cout << "constructor 2 of B" << endl;
+	bool operator<(Box b) {
+		return b.capacity < this->capacity ?
+		true : false;
 	}
 };
 int main() {
-	A x(10);
-	vector<A> vec_a;
-	A arr[4];
-	B y(vec_a);
+	Box b1(10);
+	Box b2 = Box(14);
+	if (b1 < b2)
+		cout << "B1's capacity is small";
+	else
+		cout << "B2's capacity is small";
 	return 0;
 }
